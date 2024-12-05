@@ -1,0 +1,134 @@
+main {
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: #FFF;
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    box-shadow: 2px 2px 20px 0px #d7d7d7;
+}
+.score {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 30px 35px;
+    justify-content: space-between;
+
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    opacity: 0.6;
+    font-size: 18px;
+}
+.percent {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scoreResult {
+    font-size: 45px;
+    font-weight: 800;
+}
+.percent::after {
+    content: "of 100";
+    font-size: 14px;
+    opacity: 0.4;
+}
+.mark {
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.descreption {
+    font-size: 14px;
+    margin: 10px 10px 0;
+    opacity: 0.6;
+    font-weight: 400;
+}
+.data {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    position: relative;
+}
+h2 {
+    text-align: left;
+    margin: 0 0 20px 0 ;
+    color: hsl(224, 30%, 27%);
+    font-size: 18px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 12px;
+}
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    span {
+        color: hsla(0, 100%, 67%);
+    } 
+}
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    span {
+        color: hsla(39, 100%, 56%);
+    } 
+}
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    span {
+        color: hsla(166, 100%, 37%);
+    } 
+}
+.visual {
+    background-color: hsl(234, 85%, 45%, 0.1);
+    span {
+        color: hsl(234, 85%, 45%);
+    }
+}
+.section {
+    display: flex;
+}
+.dataResult span{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+button {
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    padding: 14px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    width: calc(100% - 70px);
+    cursor: pointer;
+}
+button:hover {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
